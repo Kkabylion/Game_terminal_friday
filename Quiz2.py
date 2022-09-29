@@ -28,18 +28,19 @@ def questions(poäng):
         print(all_questions[i])
         answer = input("Svar här: ")
         for j in all_answers:
-            if answer == j and all_answers.index(j) <= 1:
-                print("Rätt!")
-                poäng += 1
-                break
-            elif i == 4 and answer == j and all_answers.index(j) <= 2:
-                print("Rätt!")
-                poäng += 1
-                break
-            elif i == 3 or i == 8 or i == 9 or i == 10 and answer == j and all_answers.index(j) == 0:
-                print("Rätt!")
-                poäng += 1
-                break
+            if not answer == "" and answer == j:
+                if answer == j and all_answers.index(j) <= 1:
+                    print("Rätt!")
+                    poäng += 1
+                    break
+                elif i == 4 and answer == j and all_answers.index(j) <= 2:
+                    print("Rätt!")
+                    poäng += 1
+                    break
+                elif i == 3 or i == 8 or i == 9 or i == 10 and answer == j and all_answers.index(j) == 0:
+                    print("Rätt!")
+                    poäng += 1
+                    break
         try:
             if i == 4:
                 del all_answers[:3]
