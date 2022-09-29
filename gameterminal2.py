@@ -1,6 +1,6 @@
 print("Välkommen till Python Quiz!")
 Användarnamn = input("Användarnamn?: ")
-print("\nHej,",Användarnamn,"\n\nNu startar quizen!\nFör varje rätt svar så får du en poäng!\n\nLycka till!")
+print("\nHej,",Användarnamn + "!" "\n\nNu startar quizen!\nFör varje rätt svar så får du en poäng!\n\nLycka till!")
 print("\n")
 spelar = True
 
