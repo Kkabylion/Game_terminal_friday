@@ -5,7 +5,7 @@ import os
 import codecs
 
 os.getcwd()
-os.chdir("C:\\Users\\kabyl\\game_terminal_friday\\pygamequiz")
+os.chdir("C:\\Users\\map\\map\\map")
 RES = 800, 500
 
 # Huvud programmet startar
