@@ -127,7 +127,7 @@ def print_text(font, x, y, text, color=(255,255,255), shadow=True):
 #ladda upp filen med frågor/svar
 quiz = Quiz("pythonquiz.txt")
 
-#för frågor loop
+#Keybinds för frågor loop
 while True:
     for event in pygame.event.get():
         if event.type == QUIT:
